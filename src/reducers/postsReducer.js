@@ -15,7 +15,7 @@ export default function(state = INIT_STATE, action) {
             const recentPosts = action.payload;
             return {
                 ...state, 
-                recentPosts: action.payload
+                recentPosts
                 }
         case SET_RESULTS_POSTS:
                 const resultPosts = action.payload;
