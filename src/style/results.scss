@@ -35,13 +35,16 @@
         line-height: 22px; 
     }
     .result-post_links {
-        // display: flex;
+        display: flex;
+        // height: 70px;
     }
 }
 
 .post-link {
     min-height: 70px;
     display: flex;
+    flex-basis: 205px;
+    margin-right: 37px;
     .post-link_box {
         min-width: 70px;
         background-color: $color-gray-three;
